@@ -7,7 +7,7 @@ print("""
                       ╚═╗╠═╣║║║╠═╝   ║║ ║║║ ║╚═╗
                       ╚═╝╩ ╩╩ ╩╩    ═╩╝═╩╝╚═╝╚═╝
 Code By Bimzzx...
-PrivateTools!!"""
+PrivateTools!!""")
 ip = str(input("IP / HOST : "))
 port = int(input("PORT : "))
 times = int(input("TIMES (7500) : "))
